@@ -68,8 +68,8 @@ BOARD_GLOBAL_CFLAGS += -DCAMERA_VENDOR_L_COMPAT
 TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 
 # CMHW
-BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/lineagehw/
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/lge_touch/tap_to_wake"
+#BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/lineagehw/
+#TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/lge_touch/tap_to_wake"
 
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
@@ -122,7 +122,7 @@ TARGET_USE_SDCLANG := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
-include device/qcom/sepolicy/legacy-sepolicy.mk
+#include device/qcom/sepolicy/legacy-sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/lge/g3-common/sepolicy
 
 # Time services
