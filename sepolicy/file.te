@@ -1,0 +1,2 @@
+type mpdecision_socket, file_type;
+type bluetooth_loader_exec, file_type;
